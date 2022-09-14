@@ -1,0 +1,42 @@
+html{
+  background-color: #F7F5EE;
+}
+body{
+  border: solid black 3px;
+}
+.header{
+  border: solid blue 3px;
+}
+.hero{
+  border: solid red 3px;
+}
+.line{
+  border: solid blue 1px;
+}
+.description{
+  border: solid red 2px;
+}
+.description p{
+
+}
+main{
+  border: solid orange 4px;
+}
+.eventContainer{
+  border: solid yellow 4px;
+}
+.eventImage{
+
+}
+.eventDetails{
+  border: solid pink 4px;
+}
+.date{
+
+}
+.eventDescription{
+
+}
+.eventLink{
+
+}
