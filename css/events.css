@@ -2,6 +2,7 @@ html{
   background-color: #c0a172;
 }
 body{
+  width: 100vw;
   border: solid black 3px;
 }
 .header{
@@ -49,7 +50,44 @@ main{
 .eventLink{
 
 }
-@media screen and (min-width: 530px) {
+/*Tablet*/
+@media screen and (min-width: 650px) and (max-width: 1000px ){
+  .hero{
+    height: 60vh;
+    width: 100%;
+  }
+  #heroImage{
+    max-height: 100%;
+  }
+  main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .eventContainer{
+    width: 45%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+  }
+  .eventImage{
+    grid-row: 1;
+    max-height: 100%;
+  }
+  .eventDetails{
+    /*puts div at bottom of parent container*/
+    grid-row: 2;
+  }
+  .eventDetails header{
+    font-size: 28px;
+  }
+  .eventDetails p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
   .hero{
     height: 80vh;
     width: 100%;
@@ -59,7 +97,6 @@ main{
   }
   main{
     width: 100%;
-    height: 80%;
     display: flex;
     justify-content: space-between;
     flex-direction: column-reverse;
@@ -68,10 +105,15 @@ main{
   }
   .eventContainer{
     width: 45%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
   }
+  .eventImage{
+    grid-row: 1;
+    }
   .eventDetails{
     /*puts div at bottom of parent container*/
-
+    grid-row: 2;
   }
   .eventDetails header{
     font-size: 28px;
@@ -79,4 +121,5 @@ main{
   .eventDetails p {
     font-size: 20px;
   }
+}
 }
