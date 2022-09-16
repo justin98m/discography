@@ -1,5 +1,5 @@
 html{
-  background-color: #F7F5EE;
+  background-color: #c0a172;
 }
 body{
   border: solid black 3px;
@@ -9,15 +9,22 @@ body{
 }
 .hero{
   border: solid red 3px;
+  width: 100%:
+}
+#heroImage{
+  width: 100%;
+  height: auto;
 }
 .line{
   border: solid blue 1px;
 }
-.description{
+.pageHeader{
+  text-align: center;
   border: solid red 2px;
+  font-size: 2em;
 }
-.description p{
-
+.pageDescription{
+  font-size: .5em;
 }
 main{
   border: solid orange 4px;
@@ -26,10 +33,12 @@ main{
   border: solid yellow 4px;
 }
 .eventImage{
-
+  width: 100%;
+  height: auto%;
 }
 .eventDetails{
   border: solid pink 4px;
+  text-align: center;
 }
 .date{
 
@@ -39,4 +48,35 @@ main{
 }
 .eventLink{
 
+}
+@media screen and (min-width: 530px) {
+  .hero{
+    height: 80vh;
+    width: 100%;
+  }
+  #heroImage{
+    max-height: 100%;
+  }
+  main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .eventContainer{
+    width: 45%;
+  }
+  .eventDetails{
+    /*puts div at bottom of parent container*/
+
+  }
+  .eventDetails header{
+    font-size: 28px;
+  }
+  .eventDetails p {
+    font-size: 20px;
+  }
 }
