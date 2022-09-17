@@ -5,22 +5,15 @@ html{
 p,header,span{
   color:#112A46;
 }
-/*ensure body takes the whole screen width*/
-body{
-  width: 100vw;
-  border: solid black 3px;
-}
 .header{
   border: solid blue 3px;
 }
 /*Ensure 'Hero Image' takes width of screen*/
 .hero{
+
+  background-image: url('/img/events-hero-image.jpeg');
   border: solid red 3px;
-  width: 100%:
-}
-#heroImage{
   width: 100%;
-  height: auto;
 }
 .line{
   border: solid blue 1px;
