@@ -1,6 +1,11 @@
 html{
   background-color: #c0a172;
 }
+/*Set all fonts to this color*/
+p,header,span{
+  color:#112A46;
+}
+/*ensure body takes the whole screen width*/
 body{
   width: 100vw;
   border: solid black 3px;
@@ -8,6 +13,7 @@ body{
 .header{
   border: solid blue 3px;
 }
+/*Ensure 'Hero Image' takes width of screen*/
 .hero{
   border: solid red 3px;
   width: 100%:
@@ -22,10 +28,10 @@ body{
 .pageHeader{
   text-align: center;
   border: solid red 2px;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .pageDescription{
-  font-size: .5em;
+  font-size: 1em;
 }
 main{
   border: solid orange 4px;
@@ -120,6 +126,9 @@ main{
   }
   .eventDetails p {
     font-size: 20px;
+  }
+  .eventLinkButton{
+
   }
 }
 }
