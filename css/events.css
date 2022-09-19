@@ -30,9 +30,6 @@ p,header,span{
 .pageDescription{
   font-size: 1em;
 }
-main{
-  border: solid orange 4px;
-}
 .eventContainer{
   border: solid yellow 4px;
 }
