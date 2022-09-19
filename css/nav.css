@@ -1,3 +1,4 @@
+/*Desktop/Default css*/
 html{
    height: 100%;
 }
@@ -56,6 +57,7 @@ nav ul li a:hover{
    border-radius: 6px;
    transition: .6s ease;
 }
+/*Table version*/
 @media screen and (max-width: 724px){
 
   nav{
@@ -98,7 +100,7 @@ nav ul li a:hover{
   flex-direction: row;
   list-style: none;
   float: none;
-  /*overwrite default paddin */
+  /*overwrite default padding */
   padding: 0;
   padding-top: 8px;
   font-family: 'PT Mono', monospace;
@@ -192,4 +194,3 @@ nav ul li a:hover{
     }
   }
 }
-/* END OF NAV AND HEADER CSS */

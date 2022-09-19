@@ -1,7 +1,6 @@
 html{
   background-color: #c0a172;
 }
-
 /*Set all fonts to this color*/
 p,header,span{
   color:#112A46;
@@ -147,18 +146,4 @@ main{
   .eventComplete{
     background-color: #32CD32;
   }
-}
-
-/* FOOTER CSS */
-footer {
-   background-color: black;
-   padding: 3em;
-   width: 100%;
-   margin-top: 150px;
-}
-
-.socials{
-  font-size: 30px;
-   display: flex;
-   justify-content: space-around;
 }

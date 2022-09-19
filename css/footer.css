@@ -1,0 +1,14 @@
+
+/* FOOTER CSS */
+footer {
+   background-color: black;
+   padding: 3em 0;
+   width: 100%;
+   margin-top: 150px;
+}
+
+.socials{
+  font-size: 30px;
+   display: flex;
+   justify-content: space-around;
+}
