@@ -2,12 +2,6 @@
 html{
    height: 100%;
 }
-
-body{
-   margin: 0;
-   padding: 0;
-   font-family: Arial;
-}
 nav{
    position: fixed;
    top: 0;
@@ -57,7 +51,7 @@ nav ul li a:hover{
    border-radius: 6px;
    transition: .6s ease;
 }
-/*Table version*/
+/*Mobile version*/
 @media screen and (max-width: 724px){
 
   nav{
@@ -100,6 +94,7 @@ nav ul li a:hover{
   flex-direction: row;
   list-style: none;
   float: none;
+  box-sizing:content-box;
   /*overwrite default padding */
   padding: 0;
   padding-top: 8px;
