@@ -151,7 +151,7 @@ main{
 footer {
    background-color: black;
    padding: 3em;
-
+   width: 95%;
    margin-top: 150px;
 }
 
