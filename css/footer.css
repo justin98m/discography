@@ -3,8 +3,9 @@
 footer {
    background-color: black;
    padding: 3em 0;
-   width: 100%;
-   margin-top: 150px;
+   width: 100vw;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 
 .socials{
@@ -12,3 +13,64 @@ footer {
    display: flex;
    justify-content: space-around;
 }
+/* FOOTER CSS */
+footer {
+  background-color: tan;
+  padding: 3em 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100vw;
+  height: 2.5rem;
+
+}
+
+
+.socials{
+   display: flex;
+   justify-content: space-around;
+   font-size: 30px;
+   width: 100%;
+   height: auto;
+}
+
+.social-icon{
+   color: black;
+   transition: color 0.2s;
+ }
+
+ .social-icon:hover{
+   color: rgb(54, 97, 239);
+ }
+
+ .social-insta{
+   color: black;
+   transition: color 0.2s;
+ }
+
+ .social-insta:hover{
+   color: fuchsia;
+ }
+
+ .social-tiktok {
+   color: black;
+   transition: color 0.2s;
+ }
+
+ .social-tiktok:hover{
+   color: lightcoral;
+ }
+
+ .social-snap{
+   color: black;
+   transition: color 0.2s;
+ }
+
+ .social-snap:hover{
+   color: yellow;
+ }
