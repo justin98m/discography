@@ -57,6 +57,9 @@ p,header,span{
 #event4{
   background-color: #F77FD6;
 }
+.eventComplete{
+  background-color: #32CD32;
+}
 .eventLinkButton{
   border: 3px solid grey;
   border-radius: 3px;
@@ -140,7 +143,5 @@ p,header,span{
   .eventLinkButton{
     font-size: 20px;;
   }
-  .eventComplete{
-    background-color: #32CD32;
-  }
+
 }
