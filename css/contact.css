@@ -5,8 +5,6 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -50,6 +48,7 @@ label {
     margin: 10px;
 }
 
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 864px){
@@ -78,4 +77,12 @@ label {
     .contactinfo p {
         font-size: 20px;
     }
+
+}
+@media screen and (min-width: 862px){
+  /*Could stop footer and form from overlapping
+  this was a quick fix ~Justin */
+  footer{
+    margin-top:11%;
+  }
 }

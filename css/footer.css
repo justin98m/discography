@@ -1,20 +1,6 @@
-
-/* FOOTER CSS */
 footer {
-   background-color: black;
-   padding: 3em 0;
-   width: 100vw;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-
-.socials{
-  font-size: 30px;
-   display: flex;
-   justify-content: space-around;
-}
-/* FOOTER CSS */
-footer {
+  margin-top: 0px;
+  margin-bottom: 0px;
   background-color: tan;
   padding: 3em 0;
   display: flex;
